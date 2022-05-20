@@ -311,6 +311,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1336737930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8923692473789018238, guid: 11bb3224255922c4497dab7af1dcdbf5, type: 3}
+  m_PrefabInstance: {fileID: 8923692472440527112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1336737936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336737930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835804c289a1f4d44bf4d50c68aae7c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1336737937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336737930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f1e8f85b0798a43a657b4e979f0aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotCamXAxisSpeed: 5
+  rotCamYAxisSpeed: 3
 --- !u!1 &1433644838
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +624,18 @@ PrefabInstance:
     - target: {fileID: 8923692473788853328, guid: 11bb3224255922c4497dab7af1dcdbf5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 75.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8923692473799738780, guid: 11bb3224255922c4497dab7af1dcdbf5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8923692473799807454, guid: 11bb3224255922c4497dab7af1dcdbf5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8923692473799906432, guid: 11bb3224255922c4497dab7af1dcdbf5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11bb3224255922c4497dab7af1dcdbf5, type: 3}
