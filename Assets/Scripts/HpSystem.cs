@@ -17,6 +17,10 @@ public class HpSystem : MonoBehaviour
     {
         hp -= 2;
     }
+    public int getHp()
+    {
+        return hp;
+    }
     private void Update()
     {
         if (hp == 0)
