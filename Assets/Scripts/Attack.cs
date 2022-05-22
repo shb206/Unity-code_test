@@ -14,10 +14,10 @@ public class Attack : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.name == "Enemy")
+                if (hit.transform.name == "Enemy(Clone)" || hit.transform.name == "Enemy")
                 {
                     Debug.Log("good shoot");
-                    hit.transform.GetComponent<EnemyHpSystem>().damegeHit();
+                    hit.transform.GetComponent<Enemy>().damegeHit();
                 }
             }
         }

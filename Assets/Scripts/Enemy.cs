@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHpSystem : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [SerializeField]
     private int hp;
@@ -18,9 +18,20 @@ public class EnemyHpSystem : MonoBehaviour
     {
         return hp;
     }
+    public void initHp()
+    {
+        hp = 10;
+    }
     private void Update()
     {
         if (hp == 0)
-            Destroy(gameObject);
+        {
+            DestroyEnemy();
+        }
+        transform.Translate(Vector3.left * Time.deltaTime);
+    }
+    private void DestroyEnemy()
+    {
+        EnemySpawnPool.ReturnObject(this);
     }
 }

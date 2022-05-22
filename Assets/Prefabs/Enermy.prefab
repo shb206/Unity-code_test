@@ -421,8 +421,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5614574348976789986}
+  - component: {fileID: 2545688766915882481}
   - component: {fileID: 740662204152581926}
-  - component: {fileID: 4830271303144330156}
   - component: {fileID: 9218160472966099412}
   m_Layer: 0
   m_Name: Enermy
@@ -454,6 +454,18 @@ RectTransform:
   m_AnchoredPosition: {x: -24.64, y: 2.08}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2545688766915882481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354929974580396170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b35f3c8088599439a4d513cfe75260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &740662204152581926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,18 +476,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6274a9c88e8024a4782de86efd1a7fee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4830271303144330156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7354929974580396170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b796df645de89d4bb0a8aa1e0bbb711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &9218160472966099412
