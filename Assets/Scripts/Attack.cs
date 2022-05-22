@@ -6,7 +6,7 @@ public class Attack : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!GameOverManager.instance.gameOverCheck() && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);

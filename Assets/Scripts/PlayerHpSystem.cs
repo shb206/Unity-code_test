@@ -13,7 +13,7 @@ public class PlayerHpSystem : MonoBehaviour
     }
     public void damegeHit()
     {
-        hp -= 1;
+        hp -= 4;
     }
     public int getHp()
     {
@@ -38,6 +38,10 @@ public class PlayerHpSystem : MonoBehaviour
     private void Update()
     {
         if (hp == 0)
+        {
+            GameOverManager.instance.gameOverChange();
             Destroy(gameObject);
+        }
+            
     }
 }
