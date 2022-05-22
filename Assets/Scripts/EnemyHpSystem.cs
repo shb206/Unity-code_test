@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HpSystem : MonoBehaviour
+public class EnemyHpSystem : MonoBehaviour
 {
     [SerializeField]
     private int hp;
     private void Start()
     {
-        if (gameObject.name == "Enemy")
-            hp = 10;
-        else
-            hp = 20;
+        hp = 10;
     }
     public void damegeHit()
     {

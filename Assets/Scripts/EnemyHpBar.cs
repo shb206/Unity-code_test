@@ -15,7 +15,7 @@ public class EnemyHpBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyHpBar.transform.GetComponent<Slider>().value = gameObject.GetComponent<HpSystem>().getHp();
+        enemyHpBar.transform.GetComponent<Slider>().value = gameObject.GetComponent<EnemyHpSystem>().getHp();
         enemyHpBar.transform.position = Camera.main.WorldToScreenPoint(transform.position + new Vector3(0, 0.8f, 0));
     }
 }

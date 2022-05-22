@@ -17,7 +17,7 @@ public class Attack : MonoBehaviour
                 if (hit.transform.name == "Enemy")
                 {
                     Debug.Log("good shoot");
-                    hit.transform.GetComponent<HpSystem>().damegeHit();
+                    hit.transform.GetComponent<EnemyHpSystem>().damegeHit();
                 }
             }
         }
