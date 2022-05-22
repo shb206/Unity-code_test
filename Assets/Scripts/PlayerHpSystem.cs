@@ -23,7 +23,7 @@ public class PlayerHpSystem : MonoBehaviour
     private void OnCollisionStay(Collision collision)
 
     {
-        if(collision.gameObject.name == "Enemy")
+        if(collision.gameObject.name == "Enemy" || collision.gameObject.name == "Enemy(Clone)")
         {
             this.time += Time.deltaTime;
             if (this.time > 3f) 
